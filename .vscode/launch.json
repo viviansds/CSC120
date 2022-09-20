@@ -1,8 +1,11 @@
 {
     "configurations": [
-        
-
-    
-    
+        {
+            "type": "java",
+            "name": "Launch GuessingGame",
+            "request": "launch",
+            "mainClass": "GuessingGame",
+            "projectName": "CSC120_be3ea30f"
+        }
     ]
 }
