@@ -32,6 +32,7 @@ class GuessingGame {
         
         if (userGuess == secretNumber) {
             System.out.println("Yay! You guessed it");
+            // print on next line
         } else {
             System.out.println("Sorry, you didn't guess right");
         }
