@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OneCard",
+            "request": "launch",
+            "mainClass": "OneCard",
+            "projectName": "CSC120_be3ea30f"
+        },
+        {
+            "type": "java",
             "name": "Launch GuessingGame",
             "request": "launch",
             "mainClass": "GuessingGame",
