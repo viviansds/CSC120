@@ -7,8 +7,8 @@ public class OneCard {
 
     /** To store the balance of funds on the card */
     double balance;
-    // constructor
 
+    /** Costructor */
     public OneCard(String owner, String ID,double balance){
 // the argumet that feeds in to this constructor becomes the attribute of the class
         this.owner = owner;
@@ -22,6 +22,9 @@ public class OneCard {
     //     this.ID = x;
     //     this.balance = x;
     // }
+    public double getBalance(){
+        return this.balance;
+    }
     /** 
      * Adds specified amount to the card's balance
      * @param amt: the amount to deposit
